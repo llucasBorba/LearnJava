@@ -1,9 +1,11 @@
 public class CarLoan {
+    // creating filds
     int carLoan;
     int loanLength;
     int interestRate;
     int downPayment;
 
+    // Constructor
     public CarLoan(int carLoan, int loanLength, int interestRate, int downPayment){
         if( loanLength <= 0 ){
             System.out.println("Error! You must take out a valid car loan.");
@@ -13,8 +15,10 @@ public class CarLoan {
             this.carLoan = carLoan;
             this.loanLength = loanLength;
             this.interestRate = interestRate;
+            this.downPayment = downPayment;
         }
     }
+        //Method
     public void monthlyPayment(){
         int remainingBalance = carLoan - downPayment;
         int months = loanLength * 12;
@@ -26,7 +30,9 @@ public class CarLoan {
 
     public static void main(String[] args) {
 
+        //Creating a Loan
         CarLoan myloan = new CarLoan(10000,3,5,2000);
+        //
         myloan.monthlyPayment();
 
     }
