@@ -18,7 +18,7 @@ public class CarLoan {
             this.downPayment = downPayment;
         }
     }
-        //Method
+        //Finding out how much you are going to pay in each monthy
     public void monthlyPayment(){
         int remainingBalance = carLoan - downPayment;
         int months = loanLength * 12;
@@ -32,7 +32,8 @@ public class CarLoan {
 
         //Creating a Loan
         CarLoan myloan = new CarLoan(10000,3,5,2000);
-        //
+
+        // Calling a method
         myloan.monthlyPayment();
 
     }
