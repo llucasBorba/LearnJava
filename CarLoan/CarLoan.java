@@ -1,3 +1,5 @@
+package CarLoan;
+
 public class CarLoan {
     // creating filds
     int carLoan;
