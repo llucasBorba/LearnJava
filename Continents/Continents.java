@@ -7,7 +7,8 @@ public class Continents{
     public void largestCity(int continents){
         this.continents = continents;
         switch (continents) {
-            case 1 -> System.out.println("North America: Mexico City, Mexico.");
+            case 1 ->
+                System.out.println("North America: Mexico City, Mexico.");
             case 2 -> System.out.println("South America: Sao Paulo, Brazil.");
             case 3 -> System.out.println("Europe: Moscow, Russia");
             case 4 -> System.out.println("Africa: Lagos, Nigeria.");
@@ -20,7 +21,7 @@ public class Continents{
 
     public static void main (String[] args){
         Continents fin = new Continents();
-        fin.largestCity(3);
+        fin.largestCity(1);
 
     }
 }
