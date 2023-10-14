@@ -13,8 +13,8 @@ public class Lunch {
                     if(lunchBox.get(i).equals("ant")){
                         lunchBox.remove(i);
                         continue;
-                    }
-                    i++;
+                    } else{
+                    i++;}
                 }
                 return lunchBox;
             }
