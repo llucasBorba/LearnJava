@@ -3,12 +3,9 @@ import java.util.ArrayList;
 
 public class Lunch {
 
-
-    class Lunch {
-
         public static ArrayList<String> removeAnts(ArrayList<String> lunchBox) {
             // Add your code below
-            public static ArrayList<String> removeAnts(ArrayList<String> lunchBox) {
+            public static ArrayList<String> removeAnts( ArrayList<String> lunchBox) {
                 // Add your code below
                 int i= 0;
 
@@ -21,8 +18,6 @@ public class Lunch {
                 }
                 return lunchBox;
             }
-
-
         }
 
 
@@ -38,4 +33,4 @@ public class Lunch {
 
         }
     }
-}
+
