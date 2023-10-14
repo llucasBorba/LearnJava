@@ -5,8 +5,6 @@ public class Lunch {
 
         public static ArrayList<String> removeAnts(ArrayList<String> lunchBox) {
             // Add your code below
-            public static ArrayList<String> removeAnts( ArrayList<String> lunchBox) {
-                // Add your code below
                 int i= 0;
 
                 while( i < lunchBox.size()){
@@ -18,7 +16,6 @@ public class Lunch {
                 }
                 return lunchBox;
             }
-        }
 
 
         public static void main(String[] args) {
