@@ -10,7 +10,6 @@ public class Lunch {
                 while( i < lunchBox.size()){
                     if(lunchBox.get(i).equals("ant")){
                         lunchBox.remove(i);
-                        continue;
                     } else{
                     i++;}
                 }
@@ -19,14 +18,13 @@ public class Lunch {
 
 
         public static void main(String[] args) {
-            ArrayList<String> lunchContainer = new ArrayList<String>();
+            ArrayList<String> lunchContainer = new ArrayList<>();
             lunchContainer.add("apple");
             lunchContainer.add("ant");
             lunchContainer.add("ant");
             lunchContainer.add("sandwich");
             lunchContainer.add("ant");
-            lunchContainer = removeAnts(lunchContainer);
-            System.out.println(lunchContainer);
+            System.out.println(removeAnts(lunchContainer));
 
         }
     }
