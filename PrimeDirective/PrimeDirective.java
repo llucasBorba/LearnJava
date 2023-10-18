@@ -39,8 +39,8 @@ public class PrimeDirective {
 
     // How CodeAcademy would suggest
 
+/*
 
-   /*
    // Import statement:
 import java.util.ArrayList;
 
