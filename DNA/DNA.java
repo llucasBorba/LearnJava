@@ -25,8 +25,8 @@ public class DNA {
         DNA dna = new DNA();
 
         dna.ckeckProtein(dna1);
-        dna.ckeckProtein(dna1);
-        dna.ckeckProtein(dna1);
+        dna.ckeckProtein(dna2);
+        dna.ckeckProtein(dna3);
 
     }
 }
