@@ -12,10 +12,10 @@ public class DNA {
 
 
     public void ckeckProtein(String dna){
-        if(dna.length() % 3 == 0 && dna.startsWith("ATG")){
+        if(dna.length() % 3 == 0 && dna.startsWith("ATG") && dna.endsWith("TGA")){
             System.out.println("Its a protein");
-        }else
-        System.out.println("Its NOT a protein");
+         }else
+           System.out.println("Its NOT a protein");
     }
     public static void main(String[] args) {
         String dna1 = "ATGCGATACGCTTGA";
