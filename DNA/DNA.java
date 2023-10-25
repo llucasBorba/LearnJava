@@ -34,7 +34,7 @@ public class DNA {
 }
 
         //How Codecademy would teach
-
+ /*
 public class DNA{
 
     public static void main (String[] args){
@@ -54,4 +54,4 @@ public class DNA{
         } else
             System.out.println("Its NOT a protein");
     }
-}
+}*/
