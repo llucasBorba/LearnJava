@@ -1,4 +1,7 @@
 package FizzBuzz;
+
+import java.util.Hashtable;
+
 public class FizzBuzz {
  //A classic FizzBUzz problem, where will print Buzz for numbers divide by 5
  // Fizz for those divide by 3 and Fizz Buzz for those one Ddivide by both
@@ -15,6 +18,10 @@ public class FizzBuzz {
             }else
                 System.out.println(i);
         }
+
+        Hashtable<Integer, Integer> ht = new Hashtable<Integer, Integer>();
+
+
     }
 }
 
