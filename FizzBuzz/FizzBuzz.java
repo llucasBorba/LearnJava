@@ -19,7 +19,6 @@ public class FizzBuzz {
                 System.out.println(i);
         }
 
-        Hashtable<Integer, Integer> ht = new Hashtable<Integer, Integer>();
 
 
     }
