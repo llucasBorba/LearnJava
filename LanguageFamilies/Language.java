@@ -22,9 +22,17 @@ public void getInfo(){
 
         }
 
-public static void main(String[] args){
-        Language spanish = new Language("Spanish", 100000, "America", "Verb-Object");
-        spanish.getInfo();
+        public static void main(String[] args){
+
+                Language spanish = new Language("Spanish", 100, "America", "Verb-Object");
+                Mayan chuj = new Mayan("Chuj", 61630);
+                SinoTibetan mandarim = new SinoTibetan( "Mandarin Chinese", 900);
+                SinoTibetan burmese = new SinoTibetan( "Burmese", 987);
+
+                chuj.getInfo();
+                spanish.getInfo();
+                mandarim.getInfo();
+                burmese.getInfo();
 
         }
 }
