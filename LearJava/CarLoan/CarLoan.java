@@ -1,4 +1,4 @@
-package CarLoan;
+package LearJava.CarLoan;
 
 public class CarLoan {
     // creating filds

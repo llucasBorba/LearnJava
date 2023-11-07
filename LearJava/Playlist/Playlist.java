@@ -1,4 +1,4 @@
-package Playlist;
+package LearJava.Playlist;
 
 import java.util.ArrayList;
 

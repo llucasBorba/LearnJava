@@ -1,4 +1,4 @@
-package Fortune;
+package LearJava.Fortune;
 
 //The ain of this activity is Debug the code
 

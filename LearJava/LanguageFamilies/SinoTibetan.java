@@ -1,4 +1,4 @@
-package LanguageFamilies;
+package LearJava.LanguageFamilies;
 
 public class SinoTibetan extends Language{
 

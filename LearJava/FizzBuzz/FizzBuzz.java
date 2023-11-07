@@ -1,6 +1,4 @@
-package FizzBuzz;
-
-import java.util.Hashtable;
+package LearJava.FizzBuzz;
 
 public class FizzBuzz {
  //A classic FizzBUzz problem, where will print Buzz for numbers divide by 5
@@ -10,7 +8,7 @@ public class FizzBuzz {
 
         for(int i = 1; i<=100; i++){
             if(i % 3 == 0 && i % 5 == 0){
-                System.out.println("FizzBuzz");
+                System.out.println("LearJava/FizzBuzz");
             } else if( i % 5 == 0){
                 System.out.println("Buzz");
             } else if(i % 3 == 0){
