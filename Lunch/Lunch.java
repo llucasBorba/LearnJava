@@ -1,4 +1,4 @@
-package LearJava.Lunch;
+package Lunch;
 import java.util.ArrayList;
 
 public class Lunch {

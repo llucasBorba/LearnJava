@@ -1,4 +1,4 @@
-package LearJava.PrimeDirective;
+package PrimeDirective;
 import java.util.ArrayList;
 
         // How I would solve the problem just by reading it

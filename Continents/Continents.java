@@ -1,4 +1,4 @@
-package LearJava.Continents;
+package Continents;
 
 public class Continents{
     /* a program that will print out a continent and the largest city in that continent, based on the value of an integer.*/
@@ -18,7 +18,6 @@ public class Continents{
             default -> System.out.println("Undefined continent!");
         }
     }
-
     public static void main (String[] args){
         Continents fin = new Continents();
         fin.largestCity(1);

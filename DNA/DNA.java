@@ -1,4 +1,4 @@
-package LearJava.DNA;
+package DNA;
 /*a DNA.java program that determines whether there is a protein in a strand of DNA.
 
 A protein has the following qualities:

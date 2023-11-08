@@ -1,4 +1,4 @@
-package LearJava.LanguageFamilies;
+package LanguageFamilies;
 
 public class Mayan extends Language{
 

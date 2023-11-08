@@ -1,4 +1,4 @@
-package LearJava.Newsfeed;
+package Newsfeed;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package LearJava.ImageProcessing;
+package ImageProcessing;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
