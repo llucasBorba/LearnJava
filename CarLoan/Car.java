@@ -1,14 +1,11 @@
 package CarLoan;
 
-import java.io.Serializable;
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class Car implements Serializable {
     private String make;
     private int year;
+    @Serial
     private static final long serialVersionUID = 1L;
 
     public Car(String make, int year) {
